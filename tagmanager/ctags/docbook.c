@@ -96,7 +96,8 @@ static void findDocBookTags(void)
 				cp++;
 
 				/* <section id="..."> */
-				if (getWord("section", &cp))
+				if (getWord("section", &cp) ||
+					getWord("procedure", &cp))
 				{
 					createTag(K_SECTION, cp);
 					continue;
