@@ -69,6 +69,9 @@ context_action_cmd=
 # unclosed tag will be automatically indented
 xml_indent_tags=true
 
+# Sort symbols in the order of appearance
+symbol_list_sort_mode = 1
+
 [indentation]
 #width=4
 # 0 is spaces, 1 is tabs, 2 is tab & spaces
