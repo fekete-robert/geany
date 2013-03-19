@@ -117,6 +117,7 @@ static void findDocBookTags(void)
 				/* <sect3 id="..."> */
 				if (getWord("sect3", &cp) ||
 					getWord("sect4", &cp) ||
+					getWord("simplesect", &cp) ||
 					getWord("sect5", &cp))
 				{
 					createTag(K_SECT3, cp);
